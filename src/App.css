@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  margin: 80px;
 }
 
 .App-logo {
@@ -35,4 +36,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.properties {
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+
+}
+
+
+
+.prop {
+  max-width: 200px;
+}
+
+.container {
+  background-color: rgb(3, 3, 61);
+  color: white;
+  height: 700px;
+  text-align: left;
+  display: flex;
+  
+
+
+}
+
+.text-intro {
+  margin-top: 150px;
+  font-size: xx-large;
+  max-width: 90px;
+  padding: 20px;
+  max-width: 400px;
 }
